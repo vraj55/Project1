@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+    <div class="cards">
+        <div class="card-body">
+    <table>
+        <tr>
+            <td>
+                <div id="circle">
+                    <img src="media\img-01.png"> 
+                 </div>
+            </td>
+            <td style="padding-left: 200px;">
+                <form action="home.html" onsubmit="return(validateLogin())">
+                    <h1>Login</h1>
+                    <br><br>
+                    <h3>Email</h3>
+                    <input type="text" name="email" id="email" placeholder="">
+                    <br><br>
+                    <h3>Password</h3>
+                    <input type="password" name="pswd" id="pswd" placeholder="">
+                    <br><br><input type="checkbox" id="check"> Remember me
+                    <br><br>
+                    <input type="submit" value="Login" id="button">
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
+</div>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
